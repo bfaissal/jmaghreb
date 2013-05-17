@@ -29,10 +29,15 @@ object index extends BaseScalaTemplate[play.api.templates.Html,Format[play.api.t
 Seq[Any](format.raw/*1.19*/("""
 
 """),_display_(Seq[Any](/*3.2*/main("Welcome to Play 2.1")/*3.29*/ {_display_(Seq[Any](format.raw/*3.31*/("""
+    <div class="well-large">JMaghreb web site ! 2</div>
+    <div class="row">
+        <div class="span12">
+            <button class="btn-danger">Allo</button>
+        </div>
+
+    </div>
     
-    """),_display_(Seq[Any](/*5.6*/play20/*5.12*/.welcome(message, style = "Java"))),format.raw/*5.45*/("""
-    
-""")))})),format.raw/*7.2*/("""
+""")))})),format.raw/*12.2*/("""
 """))}
     }
     
@@ -45,11 +50,11 @@ Seq[Any](format.raw/*1.19*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Tue May 14 19:31:19 EDT 2013
+                    DATE: Thu May 16 22:46:46 EDT 2013
                     SOURCE: /Users/faissalboutaounte/work/JMaghreb/web/app/views/index.scala.html
-                    HASH: 30e15fdb34279996883a1eb558efb2a843e23dd5
-                    MATRIX: 723->1|817->18|854->21|889->48|928->50|973->61|987->67|1041->100|1078->107
-                    LINES: 26->1|29->1|31->3|31->3|31->3|33->5|33->5|33->5|35->7
+                    HASH: 4519bdda09a8ec4a7a1193ab2dcb8acc68fb3e94
+                    MATRIX: 723->1|817->18|854->21|889->48|928->50|1153->244
+                    LINES: 26->1|29->1|31->3|31->3|31->3|40->12
                     -- GENERATED --
                 */
             
