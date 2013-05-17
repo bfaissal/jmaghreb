@@ -39,6 +39,7 @@ Seq[Any](format.raw/*1.32*/("""
     </head>
     <body>
         """),_display_(Seq[Any](/*13.10*/content)),format.raw/*13.17*/("""
+<b>moroccoJUG</b>
     </body>
 </html>
 """))}
@@ -53,9 +54,9 @@ Seq[Any](format.raw/*1.32*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Tue May 14 19:31:19 EDT 2013
+                    DATE: Thu May 16 19:57:51 EDT 2013
                     SOURCE: /Users/faissalboutaounte/work/JMaghreb/web/app/views/main.scala.html
-                    HASH: 27f8edb770da492742673119002f624cb384b42b
+                    HASH: 7b5e3c79c9a29aa3f8552b108baf8779d054e97f
                     MATRIX: 727->1|834->31|922->84|948->89|1045->151|1059->157|1114->191|1210->252|1224->258|1277->290|1338->315|1353->321|1420->366|1523->433|1552->440
                     LINES: 26->1|29->1|35->7|35->7|36->8|36->8|36->8|37->9|37->9|37->9|38->10|38->10|38->10|41->13|41->13
                     -- GENERATED --
