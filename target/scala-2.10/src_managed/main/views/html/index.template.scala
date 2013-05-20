@@ -29,9 +29,10 @@ object index extends BaseScalaTemplate[play.api.templates.Html,Format[play.api.t
 Seq[Any](format.raw/*1.19*/("""
 <html ng-app>
 <head>
-    <link rel="stylesheet" media="screen" href=""""),_display_(Seq[Any](/*4.50*/routes/*4.56*/.Assets.at("stylesheets/bootstrap.css"))),format.raw/*4.95*/(""""  />
-    <link  rel="stylesheet" media="screen" href=""""),_display_(Seq[Any](/*5.51*/routes/*5.57*/.Assets.at("stylesheets/bootstrap-responsive.css"))),format.raw/*5.107*/(""""  />
-    <link  rel="stylesheet" media="screen" href=""""),_display_(Seq[Any](/*6.51*/routes/*6.57*/.Assets.at("stylesheets/main.css"))),format.raw/*6.91*/(""""  />
+<title>JMaghreb</title>
+    <link rel="stylesheet" media="screen" href=""""),_display_(Seq[Any](/*5.50*/routes/*5.56*/.Assets.at("stylesheets/bootstrap.css"))),format.raw/*5.95*/(""""  />
+    <link  rel="stylesheet" media="screen" href=""""),_display_(Seq[Any](/*6.51*/routes/*6.57*/.Assets.at("stylesheets/bootstrap-responsive.css"))),format.raw/*6.107*/(""""  />
+    <link  rel="stylesheet" media="screen" href=""""),_display_(Seq[Any](/*7.51*/routes/*7.57*/.Assets.at("stylesheets/main.css"))),format.raw/*7.91*/(""""  />
 </head>
 <bod>
 
@@ -72,7 +73,7 @@ Seq[Any](format.raw/*1.19*/("""
     <div id="myCarousel" class="carousel slide">
         <div class="carousel-inner">
             <div class="item active">
-                <img src=""""),_display_(Seq[Any](/*47.28*/routes/*47.34*/.Assets.at("/images/DSC_0272.JPG"))),format.raw/*47.68*/("""" alt="" style="-webkit-filter:blur(7px);">
+                <img src=""""),_display_(Seq[Any](/*48.28*/routes/*48.34*/.Assets.at("/images/DSC_0272.JPG"))),format.raw/*48.68*/("""" alt="" style="-webkit-filter:blur(7px);">
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>JMaghreb 2013</h1>
@@ -87,19 +88,19 @@ Seq[Any](format.raw/*1.19*/("""
     <div class="container" >
         <div class="row marketing">
             <div class="span4">
-                <img class="img-rounded" src=""""),_display_(Seq[Any](/*62.48*/routes/*62.54*/.Assets.at("images/jugMorocco_reasonably_small.png"))),format.raw/*62.106*/("""">
+                <img class="img-rounded" src=""""),_display_(Seq[Any](/*63.48*/routes/*63.54*/.Assets.at("images/jugMorocco_reasonably_small.png"))),format.raw/*63.106*/("""">
                 <h2>Community driven</h2>
                 <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
                 <p><a class="btn" href="#">View details &raquo;</a></p>
             </div><!-- /.span4 -->
             <div class="span4">
-                <img class="img-rounded" src=""""),_display_(Seq[Any](/*68.48*/routes/*68.54*/.Assets.at("images/java.jpg"))),format.raw/*68.83*/("""">
+                <img class="img-rounded" src=""""),_display_(Seq[Any](/*69.48*/routes/*69.54*/.Assets.at("images/java.jpg"))),format.raw/*69.83*/("""">
                 <h2>JAVA focused</h2>
                 <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
                 <p><a class="btn" href="#">View details &raquo;</a></p>
             </div><!-- /.span4 -->
             <div class="span4">
-                <img class="img-rounded" src=""""),_display_(Seq[Any](/*74.48*/routes/*74.54*/.Assets.at("images/web_design.png"))),format.raw/*74.89*/("""">
+                <img class="img-rounded" src=""""),_display_(Seq[Any](/*75.48*/routes/*75.54*/.Assets.at("images/web_design.png"))),format.raw/*75.89*/("""">
                 <h2>Related technologies</h2>
                 <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
                 <p><a class="btn" href="#">View details &raquo;</a></p>
@@ -110,7 +111,7 @@ Seq[Any](format.raw/*1.19*/("""
         <hr class="featurette-divider">
 
         <div class="featurette">
-            <img class="featurette-image pull-left" src=""""),_display_(Seq[Any](/*85.59*/routes/*85.65*/.Assets.at("images/community.png"))),format.raw/*85.99*/("""">
+            <img class="featurette-image pull-left" src=""""),_display_(Seq[Any](/*86.59*/routes/*86.65*/.Assets.at("images/community.png"))),format.raw/*86.99*/("""">
             <h2 class="featurette-heading">Oh yeah, it's that good. <span class="muted">Check last year's edition.</span></h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
@@ -133,19 +134,20 @@ Seq[Any](format.raw/*1.19*/("""
         <!-- Placed at the end of the document so the pages load faster -->
 
 
-    <script src=""""),_display_(Seq[Any](/*108.19*/routes/*108.25*/.Assets.at("javascripts/jquery-1.9.0.min.js"))),format.raw/*108.70*/("""" type="text/javascript"></script>
-    <script src=""""),_display_(Seq[Any](/*109.19*/routes/*109.25*/.Assets.at("javascripts/angular.min.js"))),format.raw/*109.65*/(""""></script>
-    <script src=""""),_display_(Seq[Any](/*110.19*/routes/*110.25*/.Assets.at("javascripts/bootstrap.min.js"))),format.raw/*110.67*/(""""></script>
+    <script src=""""),_display_(Seq[Any](/*109.19*/routes/*109.25*/.Assets.at("javascripts/jquery-1.9.0.min.js"))),format.raw/*109.70*/("""" type="text/javascript"></script>
+    <script src=""""),_display_(Seq[Any](/*110.19*/routes/*110.25*/.Assets.at("javascripts/angular.min.js"))),format.raw/*110.65*/(""""></script>
+    <script src=""""),_display_(Seq[Any](/*111.19*/routes/*111.25*/.Assets.at("javascripts/bootstrap.min.js"))),format.raw/*111.67*/(""""></script>
     <script>
-        !function ($) """),format.raw/*112.23*/("""{"""),format.raw/*112.24*/("""
-        $(function()"""),format.raw/*113.21*/("""{"""),format.raw/*113.22*/("""
+        !function ($) """),format.raw/*113.23*/("""{"""),format.raw/*113.24*/("""
+        $(function()"""),format.raw/*114.21*/("""{"""),format.raw/*114.22*/("""
         // carousel demo
         $('#myCarousel').carousel()
-        """),format.raw/*116.9*/("""}"""),format.raw/*116.10*/(""")
-        """),format.raw/*117.9*/("""}"""),format.raw/*117.10*/("""(window.jQuery)
+        """),format.raw/*117.9*/("""}"""),format.raw/*117.10*/(""")
+        """),format.raw/*118.9*/("""}"""),format.raw/*118.10*/("""(window.jQuery)
     </script>
 </bod>
-</html>"""))}
+</html>
+"""))}
     }
     
     def render(message:String): play.api.templates.Html = apply(message)
@@ -157,11 +159,11 @@ Seq[Any](format.raw/*1.19*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Sun May 19 23:25:32 EDT 2013
-                    SOURCE: /Users/faissalboutaounte/work/JMaghreb/web/app/views/index.scala.html
-                    HASH: d7a586a7ee9f01e98c7e8e7c3a599b03add5cd82
-                    MATRIX: 723->1|817->18|923->89|937->95|997->134|1088->190|1102->196|1174->246|1265->302|1279->308|1334->342|3331->2303|3346->2309|3402->2343|4050->2955|4065->2961|4140->3013|4683->3520|4698->3526|4749->3555|5296->4066|5311->4072|5368->4107|6028->4731|6043->4737|6099->4771|7087->5722|7103->5728|7171->5773|7261->5826|7277->5832|7340->5872|7407->5902|7423->5908|7488->5950|7564->5997|7594->5998|7644->6019|7674->6020|7772->6090|7802->6091|7840->6101|7870->6102
-                    LINES: 26->1|29->1|32->4|32->4|32->4|33->5|33->5|33->5|34->6|34->6|34->6|75->47|75->47|75->47|90->62|90->62|90->62|96->68|96->68|96->68|102->74|102->74|102->74|113->85|113->85|113->85|136->108|136->108|136->108|137->109|137->109|137->109|138->110|138->110|138->110|140->112|140->112|141->113|141->113|144->116|144->116|145->117|145->117
+                    DATE: Sun May 19 23:42:57 EDT 2013
+                    SOURCE: /Users/faissalboutaounte/work/JMaghreb/test/web/app/views/index.scala.html
+                    HASH: 9211dd8a42700b573d284e40ffd1cd77c02d2f9a
+                    MATRIX: 723->1|817->18|947->113|961->119|1021->158|1112->214|1126->220|1198->270|1289->326|1303->332|1358->366|3355->2327|3370->2333|3426->2367|4074->2979|4089->2985|4164->3037|4707->3544|4722->3550|4773->3579|5320->4090|5335->4096|5392->4131|6052->4755|6067->4761|6123->4795|7111->5746|7127->5752|7195->5797|7285->5850|7301->5856|7364->5896|7431->5926|7447->5932|7512->5974|7588->6021|7618->6022|7668->6043|7698->6044|7796->6114|7826->6115|7864->6125|7894->6126
+                    LINES: 26->1|29->1|33->5|33->5|33->5|34->6|34->6|34->6|35->7|35->7|35->7|76->48|76->48|76->48|91->63|91->63|91->63|97->69|97->69|97->69|103->75|103->75|103->75|114->86|114->86|114->86|137->109|137->109|137->109|138->110|138->110|138->110|139->111|139->111|139->111|141->113|141->113|142->114|142->114|145->117|145->117|146->118|146->118
                     -- GENERATED --
                 */
             
