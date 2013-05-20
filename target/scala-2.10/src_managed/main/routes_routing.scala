@@ -1,6 +1,6 @@
 // @SOURCE:/Users/faissalboutaounte/work/JMaghreb/web/conf/routes
 // @HASH:03ccea1c44a424021016cf2c9b7311847ce5437e
-// @DATE:Sun May 19 20:14:38 EDT 2013
+// @DATE:Sun May 19 23:46:52 EDT 2013
 
 
 import play.core._
