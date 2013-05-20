@@ -11,5 +11,9 @@ public class Application extends Controller {
 
         return ok(index.render("Your new application is ready. JMaghreb!"));
     }
+    public static Result test() {
+
+        return ok(test.render("Salam"));
+    }
   
 }

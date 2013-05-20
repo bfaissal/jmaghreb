@@ -1,6 +1,6 @@
 // @SOURCE:/Users/faissalboutaounte/work/JMaghreb/web/conf/routes
-// @HASH:7146bf5ffec26c2f847f18152bb46ae68389afe6
-// @DATE:Tue May 14 19:31:18 EDT 2013
+// @HASH:03ccea1c44a424021016cf2c9b7311847ce5437e
+// @DATE:Sun May 19 20:14:38 EDT 2013
 
 package controllers;
 
